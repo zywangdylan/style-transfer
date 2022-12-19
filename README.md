@@ -51,4 +51,7 @@ The second version of style transfer is implemented in the notebook `Version2_NS
 ### Report
 If you are curious about the logic of the algorithm, report is ready for you in `final_project_report.pdf` with detail explanation and evaulations.
 
+### Google Drive
+Using your UPenn SEAS Email Account to view our [Google Drive Folder](https://drive.google.com/drive/folders/1F6eYC3v-OEfabICV1bBevOpa4JYtCuP6?usp=share_link).
+
 **Happy Painting!** 🎨
