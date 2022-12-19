@@ -1,7 +1,7 @@
 ## Style Transfer of Images and Videos
 
 ### Introduction
-In this repository, we implement style transfer and analyze various design choices in the algorithm, which is important for learning from the artistic styles of existing artworks and generating new visually pleasing results. We implement two versions of style transfer. The first version requires a long runtime for images with high resolution. We explore many possible solutions and implement the second version that provides a significant speedup. We are able to efficiently stylize high resolution on GPU and scale up to stylizing videos, which requires transforming a large number of frames of the videos.
+In this repository, https://github.com/zywangdylan/style_transfer, we implement style transfer and analyze various design choices in the algorithm, which is important for learning from the artistic styles of existing artworks and generating new visually pleasing results. We implement two versions of style transfer. The first version requires a long runtime for images with high resolution. We explore many possible solutions and implement the second version that provides a significant speedup. We are able to efficiently stylize high resolution on GPU and scale up to stylizing videos, which requires transforming a large number of frames of the videos.
 
 ### For Developers
 #### Setup 🛠
