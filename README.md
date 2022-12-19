@@ -26,4 +26,7 @@ The second version of style transfer is implemented in the notebook `Version2_NS
 
 2. **Takes a while to run?** Yes, it will take a while to run the code when downloading COCO dataset and training the model. If you want to have a quick look at your stylized images, you can change the `MODE` to `IMAGE`, setup your Image Style Transfer Configs and run the code in the notebook. The result image will be waiting for you in the folder `images/result_images`. 
 
-Happy Painting! 🎨
+### Report
+If you are curious about the logic of the algorithm, report is ready for you in `final_project_report.pdf` with detail explanation and evaulations.
+
+**Happy Painting!** 🎨
