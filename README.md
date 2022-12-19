@@ -8,7 +8,8 @@ In this repository, we implement style transfer and analyze various design choic
 1. Clone the repository
 2. Upload the folder `style_transfer` you just cloned to your Google Drive/Colab under the path `/content/drive/MyDrive/`
 3. Open the notebook `Version1_NST.ipynb` or `Version2_NST.ipynb` in Colab
-4. Run the code in the notebook 🚀
+4. Modify configurations and paths according to the detailed instructions below 
+5. Run the code in the notebook 🚀
 
 #### Version 1
 The first version of style transfer is implemented in the notebook `Version1_NST.ipynb`. 
@@ -25,6 +26,24 @@ The second version of style transfer is implemented in the notebook `Version2_NS
 1. **Configs** To better support the stylization of images and videos, we implement a config cell to store the parameters of the algorithm. You can change the parameters, such as `MODE`, path, weights, in the config cell and run the code in the notebook.
 
 2. **Takes a while to run?** Yes, it will take a while to run the code when downloading COCO dataset and training the model. If you want to have a quick look at your stylized images, you can change the `MODE` to `IMAGE`, setup your Image Style Transfer Configs and run the code in the notebook. The result image will be waiting for you in the folder `images/result_images`. 
+
+3. **Folder structure?** Please keep the folder structure the same as the way shown below so that you don't need to configure most of the paths in the notebook.
+    ```
+    .
+    ├── images                                    # Image folder
+    │   ├── content_images          
+    │   ├── style_images        
+    │   └── result_images
+    ├── videos                                    # Image folder 
+    │   ├── content_videos                
+    │   └── result_videos
+    ├── training_checkpoints                      # Folder to save model checkpoints
+    ├── trained_transformations                   # Trained weights of styles
+    ├── pretrained_loss_network                   # Folder to save pretrained weights of backbones
+    ├── Version2_NST.ipynb
+    └── Version1_NST.ipynb
+    ```
+
 
 ### Report
 If you are curious about the logic of the algorithm, report is ready for you in `final_project_report.pdf` with detail explanation and evaulations.
